@@ -1,0 +1,23 @@
+{
+    "name": "innofactor-bc-fi",
+    "displayName": "Innofactor-BC-FI",
+    "description": "Extension start pack for D365BC AL development.",
+    "version": "0.0.1",
+    "icon": "innofactorlogo",
+    "publisher": "Innofactor-Finland",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "waldo.crs-al-language-extension",        
+        "nobuhito.printcode",
+        "aaron-bond.better-comments"
+    ]
+    ,"repository": {
+        "type": "git",
+        "url": "https://github.com/beemubotokka/VS_Extensionpack_for_Inno.git"
+    }
+}
